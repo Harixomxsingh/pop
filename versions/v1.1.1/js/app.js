@@ -41,7 +41,14 @@ class DeepRecoveryApp {
     this.renderChunkingOptions();
     this.bindEvents();
     this.registerServiceWorker();
+    this.updateDynamicYear();
     this.startNewSession();
+  }
+
+  updateDynamicYear() {
+    document.querySelectorAll('.current-year').forEach(el => {
+      el.textContent = new Date().getFullYear();
+    });
   }
 
   cacheDom() {

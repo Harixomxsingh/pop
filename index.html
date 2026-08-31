@@ -76,7 +76,7 @@
     <!-- Footer -->
     <footer class="app-footer">
       <p class="footer-quote">Made with ❤️ &amp; care by <a href="https://github.com/Harixomxsingh" target="_blank" rel="noopener noreferrer" class="author-link">Hari</a></p>
-      <p class="footer-copyright">© 2026 Pop • All Rights Reserved</p>
+      <p class="footer-copyright">© <span class="current-year">2026</span> Pop • All Rights Reserved</p>
     </footer>
   </div>
 
@@ -107,6 +107,7 @@
     import { LocalStore } from './js/storage.js';
 
     document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.current-year').forEach(el => el.textContent = new Date().getFullYear());
       const canvas = document.getElementById('ambient-canvas');
       if (canvas) new AmbientParticleField(canvas);
 
