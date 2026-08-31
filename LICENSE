@@ -1,0 +1,26 @@
+# Source-Available Non-Commercial & Community License
+
+**Copyright © 2026 Hariom Singh (the "Author"). All Rights Reserved.**
+
+---
+
+### 1. Purpose & Scope
+This software, source code, designs, and associated assets ("Pop" or the "Software") are made available publicly for personal use, inspection, education, and open community contributions.
+
+### 2. Permissions Granted
+Subject to the terms and conditions of this License, you are granted permission to:
+- View, download, inspect, and run the Software locally for personal, non-commercial use.
+- Fork the repository for educational research and study.
+- Submit bug reports, suggestions, feature requests, and Pull Requests to improve the official Software repository.
+
+### 3. Restrictions & Prohibitions
+You may NOT, under any circumstances, without explicit prior written authorization from the Author:
+- Sell, license, rent, monetize, or commercially exploit the Software, in whole or in part.
+- Rebrand, rename, or publish the Software (or substantial portions of its code and designs) as a standalone commercial product, mobile app on any app store (e.g., Apple App Store, Google Play Store), or SaaS web platform.
+- Remove, alter, or obscure any copyright notices, brand trademarks, or author attributions.
+
+### 4. Contributions
+By submitting a Pull Request or contribution to this repository, you agree that your contribution is provided under this License and may be incorporated into the official Software by the Author.
+
+### 5. Disclaimer of Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY.

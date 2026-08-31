@@ -1,0 +1,66 @@
+/* ==========================================================================
+   Brain Fog Recovery App (v1.1.1) — Deep Cognitive Recovery Chamber Tokens
+   ========================================================================== */
+
+:root {
+  /* Deep Atmospheric Palette */
+  --bg-app: #05070b;
+  --bg-radial: radial-gradient(circle at 50% 15%, #0e1726 0%, #060910 65%, #020306 100%);
+  --bg-surface: #0a0f1d;
+  --bg-surface-elevated: #11182c;
+  --bg-card: rgba(14, 21, 37, 0.65);
+  --bg-card-hover: rgba(22, 33, 56, 0.85);
+  --bg-card-active: rgba(30, 48, 80, 0.9);
+
+  /* Therapeutic Healing Accents */
+  --accent-sage: #88c0a8;
+  --accent-sage-light: #b4dfce;
+  --accent-sage-glow: rgba(136, 192, 168, 0.35);
+  --accent-sage-dim: rgba(136, 192, 168, 0.12);
+  
+  --accent-cyan: #64b5f6;
+  --accent-cyan-glow: rgba(100, 181, 246, 0.25);
+  --accent-amber: #e8ba70;
+  --accent-purple: #9d8df1;
+  --accent-purple-glow: rgba(157, 141, 241, 0.25);
+
+  /* Typography */
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #64748b;
+  --text-subtle: #475569;
+
+  /* Glassmorphic Borders & Shadows */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.15);
+  --border-active: rgba(136, 192, 168, 0.5);
+  --shadow-soft: 0 12px 36px -10px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 45px -5px rgba(136, 192, 168, 0.25);
+
+  /* Layout & Sizing */
+  --max-content-width: 480px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 9999px;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  /* Typography Scale */
+  --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-size-xs: 0.8125rem;
+  --font-size-sm: 0.9375rem;
+  --font-size-base: 1.0625rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.625rem;
+  --font-size-2xl: 2.125rem;
+
+  /* Easing */
+  --ease-calm: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-gentle: cubic-bezier(0.4, 0, 0.2, 1);
+}

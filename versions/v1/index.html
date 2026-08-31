@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Brain Fog Recovery — Clear Digital Fog & Reclaim Your Mind</title>
+  <meta name="description" content="A restorative, 5-step guided reset to dissolve digital brain fog and recover mental clarity after social media overload. Grounded in cognitive science.">
+  <meta name="theme-color" content="#07090e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Clarity Reset">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/svg+xml" href="./assets/icons/icon.svg">
+  
+  <!-- Modern Clean Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+  <!-- Ambient Restorative Lighting -->
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <div class="app-shell">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="brand-badge">
+        <span class="brand-icon" aria-hidden="true"></span>
+        <span>Clarity Reset</span>
+      </div>
+      <div class="header-actions">
+        <button id="btn-sound-toggle" class="icon-btn" type="button" title="Toggle Calming Audio" aria-label="Toggle Audio">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+          </svg>
+        </button>
+        <button id="btn-history-toggle" class="icon-btn" type="button" title="View Recovery Stats" aria-label="View Stats">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 20v-6M6 20V10M18 20V4"></path>
+          </svg>
+        </button>
+        <button id="btn-reset-app" class="icon-btn" type="button" title="Restart Reset" aria-label="Restart">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <path d="M3 3v5h5"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Progress Step Ribbon -->
+    <nav class="step-indicator" aria-label="Recovery Progress">
+      <div class="step-node active" title="Step 1: Awareness"></div>
+      <div class="step-node" title="Step 2: Calming Breathing"></div>
+      <div class="step-node" title="Step 3: Chunking Context"></div>
+      <div class="step-node" title="Step 4: Specific Action"></div>
+      <div class="step-node" title="Step 5: PMA Closure"></div>
+    </nav>
+
+    <!-- Main Viewport -->
+    <main class="stage-viewport">
+      
+      <!-- STEP 1: FEEL (Awareness) -->
+      <section id="stage-awareness" class="stage-card current" aria-labelledby="heading-awareness">
+        <header class="stage-header">
+          <span class="stage-tag">Step 1 • Awareness</span>
+          <h1 id="heading-awareness" class="stage-title">How does your mind feel right now?</h1>
+          <p class="stage-subtitle">Naming your state settles the nervous system. Tap one to begin.</p>
+        </header>
+        <div id="awareness-options" class="options-grid" role="group" aria-label="Select your current mental feeling">
+          <!-- Dynamically injected options -->
+        </div>
+      </section>
+
+      <!-- STEP 2: CALM (Physiological Reset / Breathing) -->
+      <section id="stage-calm" class="stage-card" aria-labelledby="heading-calm">
+        <header class="stage-header">
+          <span class="stage-tag">Step 2 • Physiological Reset</span>
+          <h2 id="heading-calm" class="stage-title">Let your attention settle</h2>
+          <p class="stage-subtitle">Follow the pulsing circle. Allow your nervous system to ground.</p>
+        </header>
+        
+        <div class="breathing-stage">
+          <div class="breathing-visual-container">
+            <div id="breathing-aura" class="breathing-aura" aria-hidden="true"></div>
+            <div id="breathing-orb" class="breathing-orb">
+              <span id="breathing-phase-text" class="phase-text">Inhale</span>
+              <span id="breathing-phase-timer" class="phase-timer">1:00</span>
+            </div>
+          </div>
+
+          <div class="breathing-controls">
+            <div class="breathing-progress-bar" role="progressbar" aria-label="Breathing Progress">
+              <div id="breathing-progress-fill" class="breathing-progress-fill"></div>
+            </div>
+
+            <div class="breathing-actions">
+              <button id="btn-extend-breathing" class="text-btn" type="button">+30s Longer</button>
+              <span style="color: var(--border-medium);" aria-hidden="true">•</span>
+              <button id="btn-skip-breathing" class="text-btn" type="button">Skip to next</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STEP 3: BREAK IT DOWN (Chunking) -->
+      <section id="stage-chunking" class="stage-card" aria-labelledby="heading-chunking">
+        <header class="stage-header">
+          <span class="stage-tag">Step 3 • Chunking</span>
+          <h2 id="heading-chunking" class="stage-title">What were you doing before?</h2>
+          <p class="stage-subtitle">Anchor your focus to the interrupted context.</p>
+        </header>
+        <div id="chunking-options" class="options-list" role="group" aria-label="Select interrupted activity">
+          <!-- Dynamically injected context rows -->
+        </div>
+      </section>
+
+      <!-- STEP 4: GET SPECIFIC (Specificity) -->
+      <section id="stage-specificity" class="stage-card" aria-labelledby="heading-specificity">
+        <header class="stage-header">
+          <span class="stage-tag">Step 4 • Specificity</span>
+          <h2 id="heading-specificity" class="stage-title">Your one single next step</h2>
+          <p class="stage-subtitle">No decisions needed. Deliver momentum with zero friction.</p>
+        </header>
+
+        <div class="action-box">
+          <div id="action-badge" class="action-badge">Micro-Action</div>
+          <h3 id="action-instruction" class="action-instruction">Open your document and write 1 single sentence.</h3>
+          <p id="action-tip" class="action-tip">Do not edit it. Just write one sentence to re-enter momentum.</p>
+        </div>
+
+        <button id="btn-confirm-action" class="btn-primary" type="button">
+          <span>I'm doing this now</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </section>
+
+      <!-- STEP 5: CLOSE WITH GRATITUDE (PMA Closure) -->
+      <section id="stage-closure" class="stage-card" aria-labelledby="heading-closure">
+        <header class="stage-header">
+          <span class="stage-tag">Step 5 • Grounded Closure</span>
+          <h2 id="heading-closure" class="stage-title">Clarity Restored</h2>
+          <p class="stage-subtitle">Your attention is clear and perception is wide.</p>
+        </header>
+
+        <div class="closure-box">
+          <div class="closure-icon" aria-hidden="true">✨</div>
+          <p id="closure-affirmation" class="closure-affirmation">"You noticed the fog, paused, and reclaimed your mind. You are ready now."</p>
+          <div id="session-stat-pill" class="session-stat-pill">1 reset completed today • 1 day streak</div>
+        </div>
+
+        <button id="btn-finish-session" class="btn-primary" type="button">
+          <span>Return with Clarity</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p class="footer-quote">Awareness • Stillness • Specificity</p>
+    </footer>
+  </div>
+
+  <!-- History & Stats Modal Drawer -->
+  <aside id="history-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="modal-history-title">
+    <div class="modal-sheet">
+      <div class="modal-header">
+        <h2 id="modal-history-title" class="modal-title">Recovery Journey</h2>
+        <button id="btn-close-history" class="icon-btn" type="button" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div id="stat-total-resets" class="stat-number">0</div>
+          <div class="stat-label">Total Resets</div>
+        </div>
+        <div class="stat-card">
+          <div id="stat-day-streak" class="stat-number">0d</div>
+          <div class="stat-label">Active Streak</div>
+        </div>
+      </div>
+
+      <h3 style="font-size: var(--font-size-sm); color: var(--text-secondary); margin-bottom: var(--space-sm);">Recent Sessions</h3>
+      <div id="history-list" class="history-list">
+        <!-- Injected history items -->
+      </div>
+    </div>
+  </aside>
+
+  <!-- ES6 Module Bootstrap -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

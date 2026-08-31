@@ -1,0 +1,18 @@
+{
+  "name": "Clarity Reset — Brain Fog Recovery",
+  "short_name": "Clarity",
+  "description": "Recover your focus and dissolve digital fog with a 5-step cognitive reset ritual.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#07090e",
+  "theme_color": "#07090e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./assets/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
