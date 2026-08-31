@@ -938,6 +938,18 @@ html, body {
   color: var(--text-muted);
 }
 
+.author-link {
+  color: var(--accent-sage-light);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.author-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 .modal-backdrop {
   position: fixed;
   inset: 0;
