@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Deep Space Obsidian Squircle Background -->
+    <radialGradient id="popBg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#121e30"/>
+      <stop offset="60%" stop-color="#070c14"/>
+      <stop offset="100%" stop-color="#030508"/>
+    </radialGradient>
+
+    <!-- Bioluminescent Ambient Radial Bloom -->
+    <radialGradient id="popAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#88c0a8" stop-opacity="0.6"/>
+      <stop offset="55%" stop-color="#64b5f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#05070b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Iridescent Bubble Gradient Stroke -->
+    <linearGradient id="bubbleRingGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64b5f6"/>
+      <stop offset="45%" stop-color="#88c0a8"/>
+      <stop offset="85%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <!-- Star Glow Gradient -->
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#fde68a" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#88c0a8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#88c0a8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Inner Bubble Fill -->
+    <radialGradient id="bubbleCoreFill" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#88c0a8" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#64b5f6" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#05070b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- App Rounded Squircle Container -->
+  <rect width="512" height="512" rx="128" fill="url(#popBg)"/>
+
+  <!-- Ambient Aura Bloom -->
+  <circle cx="256" cy="256" r="210" fill="url(#popAura)"/>
+
+  <!-- 1. The Popping Bubble Body (Circle with Open Burst at Top-Right) -->
+  <!-- Inner Translucent Volume -->
+  <circle cx="235" cy="275" r="135" fill="url(#bubbleCoreFill)"/>
+
+  <!-- Glowing Bubble Arc with Pop Burst Opening -->
+  <!-- Arc starts at angle ~ -20deg and wraps around to ~ 45deg -->
+  <path d="M 330 180 
+           A 140 140 0 1 0 375 275" 
+        fill="none" 
+        stroke="url(#bubbleRingGrad)" 
+        stroke-width="26" 
+        stroke-linecap="round"/>
+
+  <!-- Glossy Bubble Reflection Specular Arc (Top-Left) -->
+  <path d="M 155 210 A 105 105 0 0 1 230 155" 
+        fill="none" 
+        stroke="#ffffff" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        opacity="0.85"/>
+
+  <!-- Tiny Pop Energy Droplets / Burst Bubbles -->
+  <circle cx="385" cy="215" r="8" fill="#fde68a" opacity="0.9"/>
+  <circle cx="345" cy="135" r="6" fill="#88c0a8" opacity="0.8"/>
+  <circle cx="410" cy="155" r="5" fill="#64b5f6" opacity="0.75"/>
+
+  <!-- 2. The Radiant 4-Point Starlight Spark (Bursting into Presence) -->
+  <!-- Outer Glow Halo for Star -->
+  <circle cx="365" cy="155" r="75" fill="url(#starGlow)" opacity="0.8"/>
+
+  <!-- Main 4-Point Diamond Starlight Spark Shape -->
+  <path d="M 365 75 
+           Q 365 155 285 155 
+           Q 365 155 365 235 
+           Q 365 155 445 155 
+           Q 365 155 365 75 Z" 
+        fill="#ffffff"/>
+
+  <!-- Small Diagonal Spark Rays (8-Point Star Accents) -->
+  <path d="M 365 115 L 365 195 M 325 155 L 405 155" stroke="#fde68a" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 337 127 L 393 183 M 337 183 L 393 127" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Pure White Core Star Sparkle -->
+  <circle cx="365" cy="155" r="10" fill="#ffffff"/>
+</svg>
