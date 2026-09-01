@@ -4,6 +4,13 @@
   <p><strong>Pop the digital fog bubble. A 2-minute, science-backed cognitive reset to dissolve overstimulation, down-regulate your nervous system, and reclaim deep focus.</strong></p>
 
   <p>
+    <a href="https://harixomxsingh.github.io/pop/">
+      <img src="https://img.shields.io/badge/🚀%20Live%20Production%20Website-harixomxsingh.github.io%2Fpop-059669?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Production Website" />
+    </a>
+  </p>
+
+  <p>
+    <a href="https://harixomxsingh.github.io/pop/"><img src="https://img.shields.io/badge/status-Live%20Online-success.svg?style=flat-square" alt="Live Status"></a>
     <a href="https://github.com/Harixomxsingh/pop/releases"><img src="https://img.shields.io/badge/version-v1.1.1-blue.svg?style=flat-square" alt="Version 1.1.1"></a>
     <a href="./LICENSE"><img src="https://img.shields.io/badge/license-Source--Available-emerald.svg?style=flat-square" alt="License"></a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/stack-Vanilla%20ES6%2B%20%7C%20Zero--Dep-yellow.svg?style=flat-square" alt="Zero Dependencies"></a>
@@ -12,6 +19,7 @@
   </p>
 
   <p>
+    <a href="https://harixomxsingh.github.io/pop/"><strong>🌐 Live Website</strong></a> •
     <a href="#-the-problem-neurobiology-of-digital-brain-fog">The Problem</a> •
     <a href="#-how-pop-works-the-pull-sanctuary">How It Works</a> •
     <a href="#-the-7-stage-recovery-protocol">7-Stage Protocol</a> •
@@ -21,6 +29,16 @@
     <a href="#-design-philosophy">Design Philosophy</a> •
     <a href="#-roadmap">Roadmap</a> •
     <a href="#-license">License</a>
+  </p>
+</div>
+
+---
+
+<div align="center">
+  <h3>⚡ Instant Access</h3>
+  <p>
+    <strong>Open in Browser:</strong> <a href="https://harixomxsingh.github.io/pop/"><strong>https://harixomxsingh.github.io/pop/</strong></a><br/>
+    <em>Zero install required • Mobile & Desktop optimized • 100% Offline PWA ready</em>
   </p>
 </div>
 
@@ -251,11 +269,18 @@ pop/
 
 ---
 
-## 🚀 Quick Start & Local Development
+## 🚀 Quick Start & Live Access
 
-Pop requires **no build step, no npm install, and no bundler**. You can run it instantly with any local static web server.
+### 🌐 Option 1: Launch the Live Web App (Instant)
+No setup required. Access the production build right now:
+👉 **[https://harixomxsingh.github.io/pop/](https://harixomxsingh.github.io/pop/)**
 
-### Option 1: Python (Built-in)
+---
+
+### 💻 Option 2: Run Locally (Zero Dependencies)
+Pop requires **no build step, no npm install, and no bundler**. You can run it locally with any static web server:
+
+#### A. Python (Built-in)
 ```bash
 # Clone the repository
 git clone https://github.com/Harixomxsingh/pop.git
@@ -270,7 +295,7 @@ Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 ---
 
-### Option 2: Node.js (`npx serve` or `http-server`)
+#### B. Node.js (`npx serve` or `http-server`)
 ```bash
 # Run with npx serve
 npx serve . -p 3000
@@ -281,7 +306,7 @@ npx http-server -p 3000 -c-1
 
 ---
 
-### Option 3: VS Code Live Server
+#### C. VS Code Live Server
 1. Install the **Live Server** extension in VS Code.
 2. Right-click [`index.html`](./index.html) and select **"Open with Live Server"**.
 
