@@ -113,6 +113,58 @@
   margin: 0 auto var(--space-lg);
 }
 
+/* Prominent Header Guide Link */
+.header-guide-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(136, 192, 168, 0.1);
+  border: 1px solid rgba(136, 192, 168, 0.25);
+  color: var(--accent-sage-light);
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  transition: all 0.2s ease;
+}
+
+.header-guide-link:hover {
+  background: rgba(136, 192, 168, 0.2);
+  border-color: var(--accent-sage);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+/* Feature Value Pills (Zero Decision Friction) */
+.home-feature-pills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  max-width: 380px;
+  margin: 0 auto var(--space-lg);
+}
+
+.feature-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  backdrop-filter: blur(8px);
+}
+
+.feature-pill .pill-icon {
+  font-size: 0.85rem;
+}
+
 .btn-hero-start {
   text-decoration: none;
   font-size: 1.1rem;
@@ -136,7 +188,7 @@
   text-decoration: none;
   font-size: 0.8125rem;
   font-weight: 600;
-  padding: 10px 18px;
+  padding: 11px 20px;
   border-radius: var(--radius-pill);
   transition: all 0.2s ease;
   max-width: 320px;
@@ -144,7 +196,7 @@
 }
 
 .btn-about-link:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.09);
   border-color: var(--accent-cyan);
   color: var(--text-primary);
   transform: translateY(-1px);

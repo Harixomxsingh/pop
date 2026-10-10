@@ -1,0 +1,74 @@
+[
+  {
+    "order": 1,
+    "id": "892c2140f0d445ba8b609b7f61c987d2",
+    "name": "Step 5: Micro-Action Engine",
+    "title": "step_5_micro_action_engine",
+    "image_file": "01_step_5_micro_action_engine_892c2140f0d445ba8b609b7f61c987d2.png",
+    "html_file": "01_step_5_micro_action_engine_892c2140f0d445ba8b609b7f61c987d2.html"
+  },
+  {
+    "order": 2,
+    "id": "0dcb0edd820c47fc825c5fc7730f6b40",
+    "name": "Step 7: Positivity Gateway",
+    "title": "step_7_positivity_gateway",
+    "image_file": "02_step_7_positivity_gateway_0dcb0edd820c47fc825c5fc7730f6b40.png",
+    "html_file": "02_step_7_positivity_gateway_0dcb0edd820c47fc825c5fc7730f6b40.html"
+  },
+  {
+    "order": 3,
+    "id": "9388298c1098489d88adb83464c16a81",
+    "name": "Step 6: Focus Bridge",
+    "title": "step_6_focus_bridge",
+    "image_file": "03_step_6_focus_bridge_9388298c1098489d88adb83464c16a81.png",
+    "html_file": "03_step_6_focus_bridge_9388298c1098489d88adb83464c16a81.html"
+  },
+  {
+    "order": 4,
+    "id": "1be8d45c1ff8481b8f88583b14654866",
+    "name": "Clarity, Streaks & Rewards",
+    "title": "clarity_streaks_rewards",
+    "image_file": "04_clarity_streaks_rewards_1be8d45c1ff8481b8f88583b14654866.png",
+    "html_file": "04_clarity_streaks_rewards_1be8d45c1ff8481b8f88583b14654866.html"
+  },
+  {
+    "order": 5,
+    "id": "447eb247d77f41f693010ece671a8929",
+    "name": "Step 2: Horizon Gaze",
+    "title": "step_2_horizon_gaze",
+    "image_file": "05_step_2_horizon_gaze_447eb247d77f41f693010ece671a8929.png",
+    "html_file": "05_step_2_horizon_gaze_447eb247d77f41f693010ece671a8929.html"
+  },
+  {
+    "order": 6,
+    "id": "156eb9bcb22c4e3092b837102931dbc8",
+    "name": "Step 3: Somatic Breath",
+    "title": "step_3_somatic_breath",
+    "image_file": "06_step_3_somatic_breath_156eb9bcb22c4e3092b837102931dbc8.png",
+    "html_file": "06_step_3_somatic_breath_156eb9bcb22c4e3092b837102931dbc8.html"
+  },
+  {
+    "order": 7,
+    "id": "ffa4bca459204c7e87be085cf8551cd1",
+    "name": "Step 4: Forward Direction",
+    "title": "step_4_forward_direction",
+    "image_file": "07_step_4_forward_direction_ffa4bca459204c7e87be085cf8551cd1.png",
+    "html_file": "07_step_4_forward_direction_ffa4bca459204c7e87be085cf8551cd1.html"
+  },
+  {
+    "order": 8,
+    "id": "80e3ad72679945cfb6f9652d6372c650",
+    "name": "Step 1: Fog Sweep",
+    "title": "step_1_fog_sweep",
+    "image_file": "08_step_1_fog_sweep_80e3ad72679945cfb6f9652d6372c650.png",
+    "html_file": "08_step_1_fog_sweep_80e3ad72679945cfb6f9652d6372c650.html"
+  },
+  {
+    "order": 9,
+    "id": "7321805585a5410fa93d8dcc47e80cde",
+    "name": "Home Sanctuary",
+    "title": "home_sanctuary",
+    "image_file": "09_home_sanctuary_7321805585a5410fa93d8dcc47e80cde.png",
+    "html_file": "09_home_sanctuary_7321805585a5410fa93d8dcc47e80cde.html"
+  }
+]

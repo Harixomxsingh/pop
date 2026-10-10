@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&amp;family=Space+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-primary-fixed-variant": "#004c69", "surface-container-highest": "#2d3540", "secondary-container": "#17503d", "secondary-fixed": "#b5efd5", "tertiary-fixed": "#ffdeae", "primary-fixed-dim": "#94cef1", "secondary": "#9ad2ba", "on-secondary-fixed": "#002116", "inverse-primary": "#256583", "on-background": "#dbe3f1", "primary-container": "#7eb8da", "on-primary": "#003549", "error-container": "#93000a", "tertiary-fixed-dim": "#edbf78", "surface-dim": "#0c141e", "inverse-surface": "#dbe3f1", "secondary-fixed-dim": "#9ad2ba", "surface-variant": "#2d3540", "outline": "#8a9298", "tertiary-container": "#d5aa65", "background": "#0c141e", "on-primary-fixed": "#001e2c", "on-tertiary-container": "#5c3e01", "surface-container": "#18202a", "primary-fixed": "#c4e7ff", "on-error-container": "#ffdad6", "on-secondary-container": "#89c1a9", "outline-variant": "#40484d", "on-error": "#690005", "surface-container-high": "#232b35", "error": "#ffb4ab", "inverse-on-surface": "#29313c", "on-tertiary-fixed-variant": "#604103", "on-secondary": "#003828", "on-primary-container": "#004964", "surface-bright": "#323a45", "tertiary": "#f3c57e", "surface-tint": "#94cef1", "on-secondary-fixed-variant": "#17503d", "surface-container-lowest": "#070f18", "primary": "#99d4f7", "on-surface-variant": "#c0c7ce", "surface": "#0c141e", "on-tertiary-fixed": "#281900", "on-tertiary": "#432c00", "surface-container-low": "#141c26", "on-surface": "#dbe3f1" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "space-lg": "2rem", "space-xl": "3.5rem", "space-sm": "0.75rem", "space-xs": "0.375rem", "gutter": "1.5rem", "gutter-mobile": "1rem", "margin": "3rem", "margin-mobile": "1.25rem", "space-md": "1.25rem" }, fontFamily: { "body-sm": ["Geist"], "body-lg": ["Geist"], "headline-lg": ["Space Grotesk"], "headline-md": ["Space Grotesk"], "label-md": ["Space Grotesk"], "label-sm": ["Space Grotesk"], "headline-sm": ["Space Grotesk"], "headline-lg-mobile": ["Space Grotesk"], "headline-xl-mobile": ["Space Grotesk"], "body-md": ["Geist"], "headline-xl": ["Space Grotesk"] }, fontSize: { "body-sm": ["0.875rem", { "lineHeight": "1.375rem", "letterSpacing": "0.01em", "fontWeight": "400" }], "body-lg": ["1.125rem", { "lineHeight": "1.875rem", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg": ["2.5rem", { "lineHeight": "3rem", "letterSpacing": "-0.02em", "fontWeight": "500" }], "headline-md": ["1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-md": ["0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.06em", "fontWeight": "500" }], "label-sm": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.08em", "fontWeight": "500" }], "headline-sm": ["1.25rem", { "lineHeight": "1.75rem", "letterSpacing": "0em", "fontWeight": "500" }], "headline-lg-mobile": ["1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "-0.01em", "fontWeight": "500" }], "headline-xl-mobile": ["2.25rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.02em", "fontWeight": "500" }], "body-md": ["1rem", { "lineHeight": "1.625rem", "letterSpacing": "0em", "fontWeight": "400" }], "headline-xl": ["3.5rem", { "lineHeight": "4rem", "letterSpacing": "-0.03em", "fontWeight": "500" }] } } } };</script><style>@layer base { html, body { width: 100%; margin: 0; padding: 0; background-color: #0c141e; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.25)]"><div class="h-16 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span><h1 class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Clarity</h1></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 w-full bg-surface pt-16 pb-24"><div class="flex flex-col w-full px-gutter-mobile space-y-space-md">
+<!-- Minimalist Header Summary -->
+<div class="flex flex-col pt-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Biometric Telemetry</span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+        Synchronized
+      </span>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight mt-0.5">Clarity &amp; Rhythm</h2>
+</div>
+<!-- Milestone Hero Card (Apple Health Inspired) -->
+<div class="relative overflow-hidden rounded-lg bg-surface-container-high p-space-md shadow-sm">
+<!-- Ambient glow underlay -->
+<div class="absolute -top-12 -right-12 w-44 h-44 rounded-full bg-primary-container/10 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex items-start justify-between">
+<div class="space-y-1">
+<span class="font-label-md text-label-md text-on-surface-variant">Continuous Presence</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-xl-mobile text-headline-xl-mobile text-on-surface tracking-tighter">7</span>
+<span class="font-headline-sm text-headline-sm text-primary">Days</span>
+</div>
+</div>
+<!-- Minimalist Concentric Neural Completion Ring -->
+<div class="relative w-16 h-16 flex items-center justify-center">
+<svg class="w-16 h-16 transform -rotate-90" viewbox="0 0 64 64">
+<circle cx="32" cy="32" fill="transparent" r="26" stroke="#232b35" stroke-width="4"></circle>
+<circle class="transition-all duration-1000 ease-out" cx="32" cy="32" fill="transparent" r="26" stroke="#99d4f7" stroke-dasharray="163.36" stroke-dashoffset="0" stroke-linecap="round" stroke-width="4"></circle>
+<circle cx="32" cy="32" fill="transparent" r="18" stroke="#18202a" stroke-width="3.5"></circle>
+<circle cx="32" cy="32" fill="transparent" r="18" stroke="#9ad2ba" stroke-dasharray="113.1" stroke-dashoffset="18" stroke-linecap="round" stroke-width="3.5"></circle>
+</svg>
+<span class="material-symbols-outlined text-primary text-[20px] absolute" style="font-variation-settings: 'FILL' 1;">arrow_back_ios_new</span>
+</div>
+</div>
+<!-- 7-Stage Mind Reset Indicator -->
+<div class="mt-space-md pt-space-sm">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cognitive Protocol Cycle</span>
+<span class="font-label-sm text-label-sm text-secondary">Stage 7 of 7 Complete</span>
+</div>
+<div class="flex items-center justify-between gap-1.5 py-1">
+<div class="h-2 flex-1 rounded-full bg-secondary flex items-center justify-center shadow-[0_0_8px_rgba(154,210,186,0.35)]"></div>
+<div class="h-2 flex-1 rounded-full bg-secondary flex items-center justify-center shadow-[0_0_8px_rgba(154,210,186,0.35)]"></div>
+<div class="h-2 flex-1 rounded-full bg-secondary flex items-center justify-center shadow-[0_0_8px_rgba(154,210,186,0.35)]"></div>
+<div class="h-2 flex-1 rounded-full bg-secondary flex items-center justify-center shadow-[0_0_8px_rgba(154,210,186,0.35)]"></div>
+<div class="h-2 flex-1 rounded-full bg-secondary flex items-center justify-center shadow-[0_0_8px_rgba(154,210,186,0.35)]"></div>
+<div class="h-2 flex-1 rounded-full bg-secondary flex items-center justify-center shadow-[0_0_8px_rgba(154,210,186,0.35)]"></div>
+<div class="h-2 flex-[1.6] rounded-full bg-primary flex items-center justify-center shadow-[0_0_12px_rgba(153,212,247,0.55)]"></div>
+</div>
+</div>
+<!-- Secondary Clean Metrics Split Panel -->
+<div class="grid grid-cols-2 gap-space-sm mt-space-md pt-space-xs">
+<div class="rounded-DEFAULT bg-surface-container p-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Mind Resets</span>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-sm text-headline-sm text-on-surface">28</span>
+<span class="font-label-sm text-label-sm text-secondary">total</span>
+</div>
+</div>
+<div class="rounded-DEFAULT bg-surface-container p-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Attention Reclaimed</span>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-sm text-headline-sm text-on-surface">142</span>
+<span class="font-label-sm text-label-sm text-primary">mins</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Attention Recovery Graph (iOS Health Aesthetic) -->
+<div class="rounded-lg bg-surface-container-high p-space-md shadow-sm">
+<div class="flex items-start justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Attention Restored</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-0.5">Weekly Restoration</h3>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-primary">+34%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">vs last week</span>
+</div>
+</div>
+<!-- Minimalist Health-Style Bar Chart with Trend Curve -->
+<div class="relative w-full h-36 pt-4 flex flex-col justify-end">
+<!-- Background Guide Lines -->
+<div class="absolute inset-0 flex flex-col justify-between pointer-events-none opacity-20">
+<div class="w-full h-px bg-on-surface-variant"></div>
+<div class="w-full h-px bg-on-surface-variant"></div>
+<div class="w-full h-px bg-on-surface-variant"></div>
+</div>
+<!-- Trend Wave Line SVG Overlay -->
+<svg class="absolute inset-x-0 top-3 w-full h-24 overflow-visible pointer-events-none" preserveaspectratio="none" viewbox="0 0 280 60">
+<path d="M 10 44 Q 50 38 90 28 T 170 18 T 250 8" fill="none" opacity="0.65" stroke="#99d4f7" stroke-linecap="round" stroke-width="2"></path>
+</svg>
+<!-- Bars Mon-Sun -->
+<div class="relative z-10 grid grid-cols-7 gap-2 items-end h-28 px-1">
+<!-- Mon -->
+<div class="flex flex-col items-center gap-1.5 h-full justify-end group cursor-pointer">
+<div class="w-full max-w-[18px] rounded-full bg-surface-container-highest transition-all duration-300 group-hover:bg-primary-container" style="height: 38%;"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">M</span>
+</div>
+<!-- Tue -->
+<div class="flex flex-col items-center gap-1.5 h-full justify-end group cursor-pointer">
+<div class="w-full max-w-[18px] rounded-full bg-surface-container-highest transition-all duration-300 group-hover:bg-primary-container" style="height: 48%;"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">T</span>
+</div>
+<!-- Wed -->
+<div class="flex flex-col items-center gap-1.5 h-full justify-end group cursor-pointer">
+<div class="w-full max-w-[18px] rounded-full bg-surface-container-highest transition-all duration-300 group-hover:bg-primary-container" style="height: 60%;"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">W</span>
+</div>
+<!-- Thu -->
+<div class="flex flex-col items-center gap-1.5 h-full justify-end group cursor-pointer">
+<div class="w-full max-w-[18px] rounded-full bg-surface-container-highest transition-all duration-300 group-hover:bg-primary-container" style="height: 72%;"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">T</span>
+</div>
+<!-- Fri -->
+<div class="flex flex-col items-center gap-1.5 h-full justify-end group cursor-pointer">
+<div class="w-full max-w-[18px] rounded-full bg-secondary transition-all duration-300 shadow-[0_0_10px_rgba(154,210,186,0.3)]" style="height: 85%;"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">F</span>
+</div>
+<!-- Sat -->
+<div class="flex flex-col items-center gap-1.5 h-full justify-end group cursor-pointer">
+<div class="w-full max-w-[18px] rounded-full bg-secondary transition-all duration-300 shadow-[0_0_10px_rgba(154,210,186,0.3)]" style="height: 90%;"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">S</span>
+</div>
+<!-- Sun (Today / Peak) -->
+<div class="flex flex-col items-center gap-1.5 h-full justify-end group cursor-pointer">
+<div class="w-full max-w-[18px] rounded-full bg-primary transition-all duration-300 shadow-[0_0_14px_rgba(153,212,247,0.5)]" style="height: 100%;"></div>
+<span class="font-label-sm text-label-sm font-medium text-primary">S</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Neuro-Badges Section -->
+<div class="space-y-space-sm pt-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Neuro-Badges</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">3 of 4 Unlocked</span>
+</div>
+<!-- 2-Column Clean Metallic Grid -->
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- Badge 1: Vagal Calm -->
+<div class="rounded-DEFAULT bg-surface-container-high p-space-sm flex flex-col justify-between h-32 relative overflow-hidden transition-transform active:scale-[0.98]">
+<div class="flex items-center justify-between">
+<div class="w-9 h-9 rounded-full bg-secondary-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">air</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-container/50 px-2 py-0.5 rounded-full">Unlocked</span>
+</div>
+<div>
+<span class="font-headline-sm text-[1rem] leading-tight text-on-surface block">Vagal Calm</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant block mt-0.5"> parasympathetic lock</span>
+</div>
+</div>
+<!-- Badge 2: Fog Dissolved -->
+<div class="rounded-DEFAULT bg-surface-container-high p-space-sm flex flex-col justify-between h-32 relative overflow-hidden transition-transform active:scale-[0.98]">
+<div class="flex items-center justify-between">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">lens_blur</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary bg-on-primary-fixed-variant/40 px-2 py-0.5 rounded-full">Unlocked</span>
+</div>
+<div>
+<span class="font-headline-sm text-[1rem] leading-tight text-on-surface block">Fog Dissolved</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant block mt-0.5">Dopamine down-cycle</span>
+</div>
+</div>
+<!-- Badge 3: Horizon View -->
+<div class="rounded-DEFAULT bg-surface-container-high p-space-sm flex flex-col justify-between h-32 relative overflow-hidden transition-transform active:scale-[0.98]">
+<div class="flex items-center justify-between">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[20px]">panorama_photosphere</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary bg-on-tertiary-container/30 px-2 py-0.5 rounded-full">Unlocked</span>
+</div>
+<div>
+<span class="font-headline-sm text-[1rem] leading-tight text-on-surface block">Horizon View</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant block mt-0.5">Saccadic ease active</span>
+</div>
+</div>
+<!-- Badge 4: Deep Focus (In Progress) -->
+<div class="rounded-DEFAULT bg-surface-container-low p-space-sm flex flex-col justify-between h-32 relative overflow-hidden opacity-75">
+<div class="flex items-center justify-between">
+<div class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[20px]">radar</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">82%</span>
+</div>
+<div>
+<span class="font-headline-sm text-[1rem] leading-tight text-on-surface-variant block">Deep Focus</span>
+<span class="font-label-sm text-label-sm text-outline block mt-0.5">Requires 10d sequence</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Primary and Secondary Flow Triggers (Apple Calibrated) -->
+<div class="flex flex-col gap-space-sm pt-space-xs pb-space-lg">
+<button class="w-full min-h-[56px] rounded-full bg-primary text-on-primary font-headline-sm text-headline-sm flex items-center justify-center gap-2 shadow-[0_0_24px_rgba(153,212,247,0.25)] hover:opacity-95 active:scale-[0.99] transition-all" id="returnBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">shield_with_heart</span>
+<span>Return to Sanctuary</span>
+</button>
+<button class="w-full min-h-[50px] rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center justify-center gap-2 hover:bg-surface-bright active:scale-[0.99] transition-all" id="shareBtn" type="button">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">ios_share</span>
+<span>Share Milestone</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-1">(Zero Telemetry)</span>
+</button>
+</div>
+</div>
+<script>
+  // Micro-interaction handlers for pure client UX delight
+  document.getElementById('returnBtn')?.addEventListener('click', function() {
+    this.classList.add('scale-95');
+    setTimeout(() => {
+      this.classList.remove('scale-95');
+      const sanctuaryLink = document.querySelector('nav a[data-path="sanctuary"]');
+      if (sanctuaryLink) sanctuaryLink.click();
+    }, 150);
+  });
+
+  document.getElementById('shareBtn')?.addEventListener('click', function() {
+    const originalText = this.innerHTML;
+    this.innerHTML = '<span class="material-symbols-outlined text-[18px] text-secondary">check_circle</span><span class="text-secondary font-label-md">Privacy Card Copied</span>';
+    setTimeout(() => {
+      this.innerHTML = originalText;
+    }, 2000);
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_-1px_12px_rgba(0,0,0,0.35)]" data-active-classes="text-primary"><div class="h-16 px-gutter flex items-center justify-around"><a class="min-w-[44px] min-h-[44px] flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="sanctuary" href="#"><span class="material-symbols-outlined text-[22px]">shield_with_heart</span><span class="font-label-sm text-label-sm">Sanctuary</span></a><a class="min-w-[44px] min-h-[44px] flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="protocols" href="#"><span class="material-symbols-outlined text-[22px]">tune</span><span class="font-label-sm text-label-sm">Protocols</span></a><a aria-current="page" class="min-w-[44px] min-h-[44px] flex flex-col items-center justify-center gap-0.5 transition-colors text-primary" data-path="clarity" href="#"><span class="material-symbols-outlined text-[22px]">bubble_chart</span><span class="font-label-sm text-label-sm">Clarity</span></a></div></nav><script src="nav.js"></script></body></html>

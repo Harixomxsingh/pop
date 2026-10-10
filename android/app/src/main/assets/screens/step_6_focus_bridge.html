@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&amp;family=Space+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-primary-fixed-variant": "#004c69", "surface-container-highest": "#2d3540", "secondary-container": "#17503d", "secondary-fixed": "#b5efd5", "tertiary-fixed": "#ffdeae", "primary-fixed-dim": "#94cef1", "secondary": "#9ad2ba", "on-secondary-fixed": "#002116", "inverse-primary": "#256583", "on-background": "#dbe3f1", "primary-container": "#7eb8da", "on-primary": "#003549", "error-container": "#93000a", "tertiary-fixed-dim": "#edbf78", "surface-dim": "#0c141e", "inverse-surface": "#dbe3f1", "secondary-fixed-dim": "#9ad2ba", "surface-variant": "#2d3540", "outline": "#8a9298", "tertiary-container": "d5aa65", "background": "#0c141e", "on-primary-fixed": "#001e2c", "on-tertiary-container": "#5c3e01", "surface-container": "#18202a", "primary-fixed": "#c4e7ff", "on-error-container": "#ffdad6", "on-secondary-container": "#89c1a9", "outline-variant": "#40484d", "on-error": "#690005", "surface-container-high": "#232b35", "error": "#ffb4ab", "inverse-on-surface": "#29313c", "on-tertiary-fixed-variant": "#604103", "on-secondary": "#003828", "on-primary-container": "#004964", "surface-bright": "#323a45", "tertiary": "#f3c57e", "surface-tint": "#94cef1", "on-secondary-fixed-variant": "#17503d", "surface-container-lowest": "#070f18", "primary": "#99d4f7", "on-surface-variant": "#c0c7ce", "surface": "#0c141e", "on-tertiary-fixed": "#281900", "on-tertiary": "#432c00", "surface-container-low": "#141c26", "on-surface": "#dbe3f1" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "space-lg": "2rem", "space-xl": "3.5rem", "space-sm": "0.75rem", "space-xs": "0.375rem", "gutter": "1.5rem", "gutter-mobile": "1rem", "margin": "3rem", "margin-mobile": "1.25rem", "space-md": "1.25rem" }, fontFamily: { "body-sm": ["Geist"], "body-lg": ["Geist"], "headline-lg": ["Space Grotesk"], "headline-md": ["Space Grotesk"], "label-md": ["Space Grotesk"], "label-sm": ["Space Grotesk"], "headline-sm": ["Space Grotesk"], "headline-lg-mobile": ["Space Grotesk"], "headline-xl-mobile": ["Space Grotesk"], "body-md": ["Geist"], "headline-xl": ["Space Grotesk"] }, fontSize: { "body-sm": ["0.875rem", { "lineHeight": "1.375rem", "letterSpacing": "0.01em", "fontWeight": "400" }], "body-lg": ["1.125rem", { "lineHeight": "1.875rem", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg": ["2.5rem", { "lineHeight": "3rem", "letterSpacing": "-0.02em", "fontWeight": "500" }], "headline-md": ["1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-md": ["0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.06em", "fontWeight": "500" }], "label-sm": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.08em", "fontWeight": "500" }], "headline-sm": ["1.25rem", { "lineHeight": "1.75rem", "letterSpacing": "0em", "fontWeight": "500" }], "headline-lg-mobile": ["1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "-0.01em", "fontWeight": "500" }], "headline-xl-mobile": ["2.25rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.02em", "fontWeight": "500" }], "body-md": ["1rem", { "lineHeight": "1.625rem", "letterSpacing": "0em", "fontWeight": "400" }], "headline-xl": ["3.5rem", { "lineHeight": "4rem", "letterSpacing": "-0.03em", "fontWeight": "500" }] } } } };</script><style>@layer base { html, body { width: 100%; margin: 0; padding: 0; background-color: #0c141e; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.25)]"><div class="h-16 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-xs"><button aria-label="Go back" class="min-w-[44px] min-h-[44px] flex items-center justify-center text-on-surface hover:text-primary transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[20px]">arrow_back_ios_new</span></button><div class="flex flex-col"><span class="font-label-sm text-label-sm text-outline uppercase tracking-widest">Pop</span><h1 class="font-headline-sm text-headline-sm text-on-surface leading-none">Active Protocol Step</h1></div></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 w-full bg-surface pt-16 pb-safe"><div class="flex flex-col w-full px-gutter-mobile pb-space-lg select-none">
+<!-- Protocol Sequence Bar: 7-Stage Mind Reset Indicator -->
+<div class="flex flex-col items-center gap-space-xs mt-space-sm mb-space-md">
+<div class="flex items-center gap-1.5 py-1 px-3 rounded-full bg-surface-container-lowest">
+<!-- 1: Done -->
+<div class="w-2.5 h-2.5 rounded-full bg-secondary flex items-center justify-center">
+<div class="w-1 h-1 rounded-full bg-surface-container-lowest"></div>
+</div>
+<!-- 2: Done -->
+<div class="w-2.5 h-2.5 rounded-full bg-secondary flex items-center justify-center">
+<div class="w-1 h-1 rounded-full bg-surface-container-lowest"></div>
+</div>
+<!-- 3: Done -->
+<div class="w-2.5 h-2.5 rounded-full bg-secondary flex items-center justify-center">
+<div class="w-1 h-1 rounded-full bg-surface-container-lowest"></div>
+</div>
+<!-- 4: Done -->
+<div class="w-2.5 h-2.5 rounded-full bg-secondary flex items-center justify-center">
+<div class="w-1 h-1 rounded-full bg-surface-container-lowest"></div>
+</div>
+<!-- 5: Done -->
+<div class="w-2.5 h-2.5 rounded-full bg-secondary flex items-center justify-center">
+<div class="w-1 h-1 rounded-full bg-surface-container-lowest"></div>
+</div>
+<!-- 6: Active Expanded Capsule -->
+<div class="w-6 h-2.5 rounded-full bg-primary-container shadow-[0_0_12px_rgba(126,184,218,0.5)]"></div>
+<!-- 7: Pending -->
+<div class="w-2.5 h-2.5 rounded-full bg-surface-container-high"></div>
+</div>
+<span class="font-label-sm text-label-sm text-outline tracking-widest uppercase">Protocol 06 of 07</span>
+</div>
+<!-- Primary Header & Pinned Intention -->
+<div class="flex flex-col items-center text-center gap-space-xs mb-space-lg">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight">Focus bridge.</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-[280px]">Gentle cognitive anchoring. Let external stimulus dissolve into background tone.</p>
+<!-- Pinned Intention Capsule -->
+<div class="inline-flex items-center gap-2 mt-space-xs px-3.5 py-1.5 rounded-full bg-surface-container-high/70 backdrop-blur-md shadow-sm">
+<span class="font-body-sm text-body-sm select-none">📌</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium tracking-wide">Reading 5 lines</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse ml-0.5"></span>
+</div>
+</div>
+<!-- Central iOS Minimalist Telemetry Timer -->
+<div class="relative flex items-center justify-center my-space-xs">
+<!-- Ambient Cold Luminescence Glow -->
+<div class="absolute w-56 h-56 rounded-full bg-primary-container/10 blur-2xl pointer-events-none"></div>
+<div class="relative w-64 h-64 flex items-center justify-center">
+<svg class="w-full h-full -rotate-90 transform" viewbox="0 0 256 256">
+<!-- Inactive Perimeter Rail -->
+<circle cx="128" cy="128" fill="none" r="108" stroke="#1e2f42" stroke-linecap="round" stroke-width="2.5"></circle>
+<!-- Active Bioluminescent Track -->
+<circle class="transition-all duration-700 ease-out" cx="128" cy="128" fill="none" id="timer-progress-ring" r="108" stroke="#99d4f7" stroke-dasharray="678.58" stroke-dashoffset="180" stroke-linecap="round" stroke-width="2.5" style="filter: drop-shadow(0 0 8px rgba(153, 212, 247, 0.45));"></circle>
+</svg>
+<!-- Center Digital Chrono Display -->
+<div class="absolute flex flex-col items-center justify-center text-center">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline mb-0.5">Anchored</span>
+<span class="font-headline-xl-mobile text-headline-xl-mobile font-semibold text-on-surface tracking-tighter tabular-nums drop-shadow-sm" id="countdown-display">04:32</span>
+<div class="flex items-center gap-1.5 mt-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+<span class="font-label-sm text-label-sm text-primary-fixed-dim">Bio-phase active</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Soundscape Selector Module -->
+<div class="flex flex-col gap-space-xs mt-space-md mb-space-lg">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Acoustic Shroud</span>
+<span class="font-label-sm text-label-sm text-primary" id="soundscape-status">Brown Noise • 432Hz</span>
+</div>
+<!-- 4 Minimal Selector Tiles -->
+<div class="grid grid-cols-4 gap-2">
+<!-- Option 1: Brown Noise (Active) -->
+<button class="sound-btn group flex flex-col items-center justify-center py-3 px-1 rounded-DEFAULT bg-surface-container-high shadow-[0_0_20px_-4px_rgba(126,184,218,0.25)] transition-all active:scale-95" data-active="true" onclick="selectSound(this, 'Brown Noise • 432Hz')">
+<span class="material-symbols-outlined text-[22px] text-primary transition-colors">waves</span>
+<span class="font-label-sm text-label-sm text-on-surface mt-1.5 tracking-tight text-center truncate w-full">Brown</span>
+</button>
+<!-- Option 2: Rain -->
+<button class="sound-btn group flex flex-col items-center justify-center py-3 px-1 rounded-DEFAULT bg-surface-container-low transition-all active:scale-95" data-active="false" onclick="selectSound(this, 'Spring Rain • Soft')">
+<span class="material-symbols-outlined text-[22px] text-outline transition-colors">rainy</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1.5 tracking-tight text-center truncate w-full">Rain</span>
+</button>
+<!-- Option 3: Binaural -->
+<button class="sound-btn group flex flex-col items-center justify-center py-3 px-1 rounded-DEFAULT bg-surface-container-low transition-all active:scale-95" data-active="false" onclick="selectSound(this, 'Alpha Waves • 10Hz')">
+<span class="material-symbols-outlined text-[22px] text-outline transition-colors">graphic_eq</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1.5 tracking-tight text-center truncate w-full">Binaural</span>
+</button>
+<!-- Option 4: Silence -->
+<button class="sound-btn group flex flex-col items-center justify-center py-3 px-1 rounded-DEFAULT bg-surface-container-low transition-all active:scale-95" data-active="false" onclick="selectSound(this, 'Pure Null Field')">
+<span class="material-symbols-outlined text-[22px] text-outline transition-colors">volume_off</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1.5 tracking-tight text-center truncate w-full">Silence</span>
+</button>
+</div>
+</div>
+<!-- Primary Controls Deck -->
+<div class="flex items-center gap-space-sm mt-auto pt-space-xs">
+<!-- Play / Pause Icon Button -->
+<button aria-label="Toggle Countdown" class="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface active:scale-90 transition-transform shadow-md" id="play-pause-btn" onclick="toggleTimer()">
+<span class="material-symbols-outlined text-[26px]" id="play-pause-icon">pause</span>
+</button>
+<!-- Complete Step Trigger -->
+<button class="flex-1 h-14 rounded-full bg-primary flex items-center justify-between px-space-md text-on-primary active:scale-[0.98] transition-all shadow-[0_0_24px_rgba(153,212,247,0.3)]" onclick="finishBridge()">
+<span class="font-label-md text-label-md font-semibold tracking-wide">Complete Bridge</span>
+<div class="flex items-center gap-1">
+<span class="font-label-sm text-label-sm uppercase opacity-75">Step 7</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</div>
+</button>
+</div>
+</div>
+<script>
+  let secondsRemaining = 272; // 04:32
+  let isRunning = true;
+  let timerInterval = null;
+  const initialSeconds = 300; // 5 min base
+  const circumference = 2 * Math.PI * 108; // ~678.58
+
+  function formatTime(totalSeconds) {
+    const mins = Math.floor(totalSeconds / 60);
+    const secs = totalSeconds % 60;
+    return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+  }
+
+  function updateDisplay() {
+    const display = document.getElementById('countdown-display');
+    const ring = document.getElementById('timer-progress-ring');
+    if (display) display.textContent = formatTime(secondsRemaining);
+
+    if (ring) {
+      const progressFraction = (initialSeconds - secondsRemaining) / initialSeconds;
+      const offset = circumference * (1 - Math.min(Math.max(progressFraction, 0), 1));
+      ring.style.strokeDashoffset = offset;
+    }
+  }
+
+  function toggleTimer() {
+    const icon = document.getElementById('play-pause-icon');
+    isRunning = !isRunning;
+    if (isRunning) {
+      if (icon) icon.textContent = 'pause';
+      startTicker();
+    } else {
+      if (icon) icon.textContent = 'play_arrow';
+      clearInterval(timerInterval);
+    }
+  }
+
+  function startTicker() {
+    clearInterval(timerInterval);
+    timerInterval = setInterval(() => {
+      if (secondsRemaining > 0) {
+        secondsRemaining--;
+        updateDisplay();
+      } else {
+        clearInterval(timerInterval);
+        isRunning = false;
+        const icon = document.getElementById('play-pause-icon');
+        if (icon) icon.textContent = 'replay';
+      }
+    }, 1000);
+  }
+
+  function selectSound(btn, label) {
+    const buttons = document.querySelectorAll('.sound-btn');
+    buttons.forEach((b) => {
+      b.classList.remove('bg-surface-container-high', 'shadow-[0_0_20px_-4px_rgba(126,184,218,0.25)]');
+      b.classList.add('bg-surface-container-low');
+      const icon = b.querySelector('.material-symbols-outlined');
+      const text = b.querySelector('span:last-child');
+      if (icon) {
+        icon.classList.remove('text-primary');
+        icon.classList.add('text-outline');
+      }
+      if (text) {
+        text.classList.remove('text-on-surface');
+        text.classList.add('text-on-surface-variant');
+      }
+      b.setAttribute('data-active', 'false');
+    });
+
+    btn.classList.remove('bg-surface-container-low');
+    btn.classList.add('bg-surface-container-high', 'shadow-[0_0_20px_-4px_rgba(126,184,218,0.25)]');
+    const activeIcon = btn.querySelector('.material-symbols-outlined');
+    const activeText = btn.querySelector('span:last-child');
+    if (activeIcon) {
+      activeIcon.classList.remove('text-outline');
+      activeIcon.classList.add('text-primary');
+    }
+    if (activeText) {
+      activeText.classList.remove('text-on-surface-variant');
+      activeText.classList.add('text-on-surface');
+    }
+    btn.setAttribute('data-active', 'true');
+
+    const status = document.getElementById('soundscape-status');
+    if (status) status.textContent = label;
+  }
+
+  function finishBridge() {
+    const display = document.getElementById('countdown-display');
+    if (display) {
+      display.classList.add('text-secondary');
+      display.textContent = 'RESTORED';
+    }
+    setTimeout(() => {
+      window.location.hash = '#step-07';
+    }, 450);
+  }
+
+  startTicker();
+</script></main><script src="nav.js"></script></body></html>
